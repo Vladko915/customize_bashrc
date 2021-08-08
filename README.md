@@ -19,22 +19,22 @@ Find out your linux distribution and read where the file is hidden.
 
 Examples of Debian 9:
 
-a)For user:
+a) For user:
 
 mcedit ~/.bashrc
 OR
 vi ~/.bashrc
 
 
-b)You need the rights of the root:
+b) You need the rights of the root:
 
 mcedit /root/.bashrc
 OR
 vi /root/.bashrc
 
 
-3)Look at the files 'root_bashrc_updates' and 'user_bashrc_update'.
-Transfer the commands you like to your .bashrc
+3) Look at the files 'root_bashrc_updates' and 'user_bashrc_update'.
+Transfer the commands you like to your '.bashrc'-file.
 And save your .bashrc
 
 4) To reflect the changes in the bash, either exit and launch the terminal again.
