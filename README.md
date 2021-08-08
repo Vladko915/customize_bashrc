@@ -1,4 +1,3 @@
-# customize_bashrc
 Bashrc configuration for root and user
 
 -------------------------------------------------------------------------------------------
@@ -20,21 +19,19 @@ Find out your linux distribution and read where the file is hidden.
 
 Examples of Debian 9:
 
-----------------------------
-For user:
+a)For user:
 
 mcedit ~/.bashrc
 OR
 vi ~/.bashrc
 
-----------------------------
 
-You need the rights of the root:
+b)You need the rights of the root:
 
 mcedit /root/.bashrc
 OR
 vi /root/.bashrc
-------------------------------
+
 
 3)Look at the files 'root_bashrc_updates' and 'user_bashrc_update'.
 Transfer the commands you like to your .bashrc
@@ -43,8 +40,6 @@ And save your .bashrc
 4) To reflect the changes in the bash, either exit and launch the terminal again.
 OR use the command:
 
------------------
 source .bashrc
-----------------
 
 Enjoy!
