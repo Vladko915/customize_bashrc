@@ -12,5 +12,10 @@ alias lsa="ls -a"
 #set default editor
 export EDITOR=/usr/bin/mcedit
 
+#functions
+mkcd ()
+{
+  mkdir -pv -- "$1" && cd -P -- "$1"
+}
 
 PS1="\n$PS1"
