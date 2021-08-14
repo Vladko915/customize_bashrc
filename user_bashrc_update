@@ -17,5 +17,15 @@ mkcd ()
 {
   mkdir -pv -- "$1" && cd -P -- "$1"
 }
+cdls ()
+{
+  cd  -- "$1";
+  ls;
+}
+cdll ()
+{
+  cd  -- "$1";
+  ll;
+}
 
 PS1="\n$PS1"
