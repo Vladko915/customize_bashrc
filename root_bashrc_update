@@ -8,6 +8,7 @@ alias wl="wc -l"
 alias bashrc="mcedit ~/.bashrc"
 alias trcomma="tr -s ',' '\n'"
 alias lsa="ls -a"
+alias up1="apt-get update;"
 alias up2="apt-get update; apt-get -u upgrade"
 
 #apache2
