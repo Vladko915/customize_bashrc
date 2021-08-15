@@ -12,6 +12,14 @@ alias lsa="ls -a"
 #set default editor
 export EDITOR=/usr/bin/mcedit
 
+#git
+alias gis="git status"
+alias gil="git log"
+alias gid="git diff"
+alias gids="git diff --staged"
+alias gidc="git diff --cached"
+alias gilp1="git log --pretty=oneline"
+
 #functions
 mkcd ()
 {
