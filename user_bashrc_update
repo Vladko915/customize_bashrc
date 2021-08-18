@@ -29,6 +29,10 @@ alias gib="dash1; git branch"
 alias gich="dash1; git checkout"
 
 #functions
+touche ()
+{
+    touch "$1" && mcedit "$1"
+}
 mkcd ()
 {
   mkdir -pv -- "$1" && cd -P -- "$1"

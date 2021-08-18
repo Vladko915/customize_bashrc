@@ -22,6 +22,10 @@ alias doi="docker images"
 export EDITOR=/usr/bin/mcedit
 
 #functions
+touche ()
+{
+    touch "$1" && mcedit "$1"
+}
 mkcd ()
 {
   mkdir -pv -- "$1" && cd -P -- "$1"
