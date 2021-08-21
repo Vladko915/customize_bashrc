@@ -11,6 +11,7 @@ alias bashrc="mcedit ~/.bashrc"
 alias tt='sl; sl --help; sl -a; sl -l; sl -F'
 alias trcomma="tr -s ',' '\n'"
 alias lsa="ls -a"
+alias lsd="ls -d */"
 alias es1='echo -e "\n"'
 alias dash1='echo -e "------------------"'
 
