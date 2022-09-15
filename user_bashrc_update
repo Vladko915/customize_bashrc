@@ -209,7 +209,7 @@ curl -s -X POST $t_api_url -d chat_id=$chat_id -d text="$text" | jq
 
 np()
 {
-curl --silent -X POST https://api.novaposhta.ua/v2.0/json/ -d '{
+curl --silent -X POST https://api.******.ua/v2.0/json/ -d '{
         "apiKey": "",
         "modelName": "TrackingDocument",
         "calledMethod": "getStatusDocuments",
