@@ -137,6 +137,7 @@ alias sls="screen -ls"
 alias btc="curl -s https://***.com/ | pup 'span.js-coin-value-usd text{}'"
 alias btc60="while true; do btc; sleep 60; done"
 alias ttt="echo $TERM"
+alias sep="echo -e '\n---\n'";
 
 export EDITOR=/usr/bin/mcedit
 
