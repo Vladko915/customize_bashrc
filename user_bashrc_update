@@ -156,6 +156,7 @@ alias gilf="git log --follow"
 alias gib="dash1; git branch"
 alias gich="dash1; git checkout"
 alias gihead="dash1; git diff HEAD~1"
+alias gisl="dash1; git stash list"
 
 alias gip="dash1; git push -u origin main"
 
