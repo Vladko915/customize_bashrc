@@ -194,11 +194,29 @@ cdll ()
   cd  -- "$1";
   ll;
 }
+
+foreach ()
+{
+c=($1);
+for i in ${c[*]};
+do
+echo $i;
+done;
+}
+
 t2d ()
 {
   t=$(echo $1 | grep -Eo '^.{10}')
   date --date="@$t";
 }
+
+curtime()
+{
+t11=$(date +%s);
+echo $t11;
+t2d $t11;
+}
+
 tbot()
 {
 text=$1 && \
