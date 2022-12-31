@@ -126,6 +126,10 @@ alias bashrc="mcedit ~/.bashrc"
 alias tt='sl; sl --help; sl -a; sl -l; sl -F'
 alias trcomma="tr -s ',' '\n'"
 alias trvg="tr -s '\n' ' '"
+#trim for 1 word
+alias trim="sed 's/^[ \t]*//;s/[ \t]*$//'"
+#trims for all words in string
+alias trims="awk '{\$1=\$1;print}'"
 alias lsa="ls -a"
 alias lr="ls -R"
 alias ls1="ls -1"
