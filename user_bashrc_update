@@ -162,6 +162,10 @@ alias gib="dash1; git branch"
 alias gich="dash1; git checkout"
 alias gihead="dash1; git diff HEAD~1"
 alias gisl="dash1; git stash list"
+alias gil1p="git log --pretty=oneline"
+alias gil1p5="git log --pretty=oneline -n 5"
+alias gil1p10="git log --pretty=oneline -n 10"
+alias gil1d5="dash1; git log --oneline --decorate -n 5
 
 alias gip="dash1; git push -u origin main"
 
