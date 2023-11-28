@@ -144,6 +144,14 @@ alias btc60="while true; do btc; sleep 60; done"
 alias ttt="echo $TERM"
 alias sep="echo -e '\n---\n'";
 
+alias trd="tr -d ' '"
+
+
+alias fq='xrandr | grep "*" | tr -s " " "\n" | grep "*"'
+alias sep="echo -e '\n-----\n'";
+alias dokstart="sudo docker start dev_mongo dev_redis && sep && doa";
+
+
 export EDITOR=/usr/bin/mcedit
 
 #git
