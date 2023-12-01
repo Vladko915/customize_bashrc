@@ -138,6 +138,10 @@ alias es1='echo -e "\n"'
 alias dash1='echo -e "------------------"'
 alias acs='apt-cache search '
 
+alias fqq='xrandr | grep "*" | tr -s " " "\n" | grep "*"'
+alias fqup='xrandr --output HDMI-A-0 --mode 1920x1080 --rate 144'
+alias fq="fqq && fqup && echo -e '\n---\nUpdate to :\n' && fqq"
+
 alias sls="screen -ls"
 alias btc="curl -s https://***.com/ | pup 'span.js-coin-value-usd text{}'"
 alias btc60="while true; do btc; sleep 60; done"
