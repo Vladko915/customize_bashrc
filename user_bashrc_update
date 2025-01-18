@@ -190,6 +190,10 @@ alias doa="sudo docker ps -a"
 alias doi="sudo docker images"
 
 #functions
+nsv ()
+{
+  npm show "$1" versions
+}
 touche ()
 {
   touch "$1" && mcedit "$1"
